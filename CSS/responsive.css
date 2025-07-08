@@ -7,6 +7,12 @@
 /* ==========================================================================
    Global Styles
    ========================================================================== */
+:root {
+  --tailboot-lg: 62.5%;
+  --tailboot-md: 58%;
+  --tailboot-sm: 52%;
+  --tailboot-below-sm: 45%;
+}
 
 * {
   box-sizing: border-box;
@@ -73,23 +79,23 @@
 }
 
 html.responsive {
-  font-size: 45%;
+  font-size: var(--tailboot-below-sm);
 }
 
 @media (min-width: 500px) {
   html.responsive {
-    font-size: 52%;
+    font-size: var(--tailboot-sm);
   }
 }
 
 @media (min-width: 750px) {
   html.responsive {
-    font-size: 58%;
+    font-size: var(--tailboot-md);
   }
 }
 
 @media (min-width: 1000px) {
   html.responsive {
-    font-size: 62.5%;
+    font-size: var(--tailboot-lg);
   }
 }
