@@ -2,9 +2,6 @@
 
 **Tailboot-lite** is a lightweight utility package that brings a Bootstrap-style 12-column grid system to Tailwind CSS while also enabling automatic responsiveness across all components.
 
-![NPM Downloads](https://img.shields.io/npm/dw/tailboot-lite?style=for-the-badge)
-
-
 ## 🚀 Features
 
 - Bootstrap 12-column-grid layout in tailwind (`col-lg-x`, `col-md-x`, etc.)
