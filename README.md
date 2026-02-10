@@ -1,6 +1,6 @@
 # Tailboot-lite
 
-**🔗 Website [tailboot.jayyu.in](https://tailboot.jayyu.in/) | NPM (tailboot-lite)[https://www.npmjs.com/package/tailboot-lite]** 
+**🔗 Website [tailboot.jayyu.in](https://tailboot.jayyu.in/) | NPM [tailboot-lite](https://www.npmjs.com/package/tailboot-lite)** 
 
 **Tailboot-lite** is a lightweight utility package that brings a Bootstrap-style 12-column grid system to Tailwind CSS while also enabling automatic responsiveness across all components.
 
