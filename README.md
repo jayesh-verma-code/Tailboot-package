@@ -1,14 +1,16 @@
 # Tailboot-lite
 
+**🔗 Website [tailboot.jayyu.in](https://tailboot.jayyu.in/) | NPM (tailboot-lite)[https://www.npmjs.com/package/tailboot-lite]** 
+
 **Tailboot-lite** is a lightweight utility package that brings a Bootstrap-style 12-column grid system to Tailwind CSS while also enabling automatic responsiveness across all components.
 
-## 🚀 Features
+##  Features
 
 - Bootstrap 12-column-grid layout in tailwind (`col-lg-x`, `col-md-x`, etc.)
 - Auto Responsiveness with the`.responsive` Class
 - Simple setup, fast loading
 
-## 📦 Installation
+##  Installation
 
 You can include the library in your project like this:
 
@@ -46,7 +48,7 @@ In the above example:
 - On large screens (≥1000px): Both boxes occupy 50% width (6 of 12 columns)
 -  On medium screens (750px to 1000px): Each box spans full width (12 of 12), stacking vertically
 
-### 🔹 Supported Breakpoints:
+###  Supported Breakpoints:
 - **Class Prefix	Screen Width Range**
 - `col-lg-x`	≥ 1000px
 - `col-md-x`	1000px to 750px
@@ -65,7 +67,7 @@ Responsive design isn’t just about layout — it’s about dynamic resizing of
 
 With Tailboot-lite, simply add a single class to your root element and let it handle responsiveness across your entire app.
 
-### 🔹 How to enable:
+###  How to enable:
 - `<html class="responsive">`
 Once added:
 
@@ -73,13 +75,13 @@ Once added:
 - No need to manually write multiple responsive utility classes for common sizing
 - Works beautifully with Tailwind’s utility-first approach
 
-### 🔸 Note:
+###  Note:
 Tailboot-lite assumes 1rem = 10px instead of the traditional 1rem = 16px, making it easier to calculate spacing and sizing mentally.
 
 #### Example:
 Instead of calculating 52px = 3.25rem, just use 5.2rem (since 10px = 1rem)
 
-#### 🔸 Manual overrides still possible:
+####  Manual overrides still possible:
 Want to override for a specific breakpoint? Just use Tailwind’s built-in responsive utilities:
 - `<div className="w-[20rem] sm:w-[10rem]">Hello</div>`
 
